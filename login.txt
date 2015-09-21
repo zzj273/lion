@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class EnterName {
+
+	public static void main(String[] args) {
+		//username is destiny
+		String username, password;
+		System.out.println("enter username");
+		Scanner keyboard= new Scanner(System.in);
+		username= keyboard.next();
+		// password "bat"
+		System.out.println("enter password");
+		password= keyboard.next();
+		if (username.equals("destiny") && password.equals("bat")){
+			System.out.println("welcome " + username);
+		} else { 
+			System.out.println("wrong username or password");
+			
+		}
+				
+	}
+
+}
